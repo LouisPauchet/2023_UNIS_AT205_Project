@@ -41,20 +41,21 @@ Finally, every saline environment is almost impossible to investigate with GPR b
 
 \paragraph{Time windows} As defined before, the time windows is the time during which the receiver will wait the signal reflected in the ground. If we use a small time windows, we risk to missed some information. At the opposite, if the time windows is too large, the data logger will record only noise which will reduce the capability of the data logger.
 
-\paragraph{Sampling interval}
+\paragraph{Sampling interval} The reception antenna received an analog signal coming from the ground but the data-logger only record digital signal. It is so important to have an sampling interval which correspond to signal. A sampling interval too low will conduct to having a completely different signal. The important criteria is the Nyquist Criteria which indicate that the sampling interval should be smaller than the maximum expected period in order to catch all the frequency. 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics{}
-    \caption{Caption}
-    \label{fig:my_label}
+    \includegraphics[width=0.8\linewidth]{Images/00_Theory/SampleRate.png}
+    \caption{Sample rate illustration}
+    \label{fig:SampleRate}
 \end{figure}
 
-\paragraph{Antenna separation}
+\paragraph{Antenna separation} The antenna separation will influence the quality of the signal due to the couplage between the two antenna. In order to set this parameter, we will just refer to the manufacturer documentation.
 
-\paragraph{Antenna orientation}
+\paragraph{Antenna orientation} The orientation of both antenna will be choose for practical purposes : both antenna perpendicular to the walking direction even if all the combination are possible, just complicated to set up on a pulk (See \ref{Section:Methodology}). We choose to have the reception antenna the farthest away from any electronic devices.
 
-\paragraph{Sampling distance}
+
+\paragraph{Sampling distance} The sampling distance will be the distance between two trace, this will give the horizontal resolution. Lower this distance is higher the horizontal resolution will be but slower will be the speed of the displacment.
 
 \paragraph{Velocity} The velocity is a secondary parameter for a GPR because in many cases the velocity is determined using GPR data. The important thing to know is that the velocity will convert the time windows into a depth windows and so determine the depth where the GPR is able to see.
 
