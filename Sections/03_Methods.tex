@@ -89,17 +89,17 @@ The initial plan was to realize a grid as presented in blue on figure \ref{fig:G
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Images/00_Methodology/GPR LIne.jpg}
-    \caption{Lines planned and realised during the main survey}
+    \caption{Lines planned and performed during the main survey}
     \label{fig:GPRLines}
 \end{figure}
 
 \subsection{Processing}
 
-The processing in the most important part of the survey, because it will permit to show what is interesting. The easier way is to use the software Ekko Project provided with the GPR by sensor and software.
+The processing in the most important part of the survey, because it allows to show what is interesting. The easier way is to use the software Ekko Project provided with the GPR by Sensor and Software (GPR manufacturer).
 
-The first step is to import all the data inside, correct the position of the lines with GPS data and export the data set as CSV as a backup.
+The first step is to import all the data in the software, correct the position of the lines with GPS data and export the data set as CSV as a backup.
 
-After applying a bandpass open from 50 MHz and 150 MHz, we open one of the line and do the following processing :
+After applying a bandpass filter from 50 MHz and 150 MHz, we open one of the line and do the following processing :
 
 \begin{enumerate}
     \item Change the color scale in order to keep my eyes alive...
@@ -108,6 +108,6 @@ After applying a bandpass open from 50 MHz and 150 MHz, we open one of the line 
     \item Use a background subtraction to remove the layering created by electronics noise mainly
 \end{enumerate}
 
-The next step is to find the velocity using the hyperbolas. Unfortunately, we get only two nice hyperbola due probably to the electric grid which give a velocity around $0.235 m/ns$ where some other very thin and small hyperbola give a velocity closest from $0.109 m/ns$. For all the lines, I choose to use the velocity of $0.235 m/ns$ but I might the wrong one and so the penetration depth should taken only as an indication, because depending of the velocity.
+The next step is to find the velocity using the hyperbolas. Unfortunately, we get only two nice hyperbolas due probably to the electric grid which give a velocity around $0.235 m/ns$ where some other very thin and small hyperbolas give a velocity closest from $0.109 m/ns$. For all the lines, I choose to use the velocity of $0.235 m/ns$ but it might be the wrong one and so the penetration depth should be taken only as an indication, because depending of the velocity.
 
 Finally, we apply the same settings to all the lines (knowing that the survey was done in the same place with the same settings) and change the visualisation from depth to elevation to have an idea of the upper geometry of the terrain.
