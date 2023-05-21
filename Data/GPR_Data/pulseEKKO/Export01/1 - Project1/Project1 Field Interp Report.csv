@@ -1,0 +1,8 @@
+Name,Count
+Pink,1
+Flag,1
+
+Tool,Interpretation,GPR Line,Position (m),Depth (m),Velocity,GPS-Easting (None),GPS-Northing (None),Latitude,Longitude,GPS-Elevation,Comment
+Point,Pink,Lineset/line1,-19.04,6.95,Moist Soil (0.1 m/ns),N/A,N/A,N/A,N/A,N/A,
+
+Flag,Flag,Lineset/line1,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,F1
